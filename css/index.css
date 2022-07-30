@@ -1,5 +1,10 @@
 
-
+h1
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 .first-color { 
 	background: #827055; 
 }
@@ -15,3 +20,28 @@
 .fourth-color { 
 	background: #ede7cf; 
 }
+
+  
+  .menu-container {
+	color: #fff;
+	background-color: #ede7cf;  /* Blue */
+	padding: 20px 0;
+	display: flex;
+	justify-content: center;
+  }
+  
+  .menu {
+	border: 1px solid #a79e8b;  /* For debugging */
+	width: 900px;
+	display: flex;
+  	justify-content: space-around;
+  }
+  .links {
+	border: 1px solid #fff;  /* For debugging */
+	display: flex;
+	justify-content: flex-end;
+  }
+  
+  .login {
+	margin-left: 20px;
+  }
