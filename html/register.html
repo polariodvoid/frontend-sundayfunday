@@ -38,14 +38,13 @@
       
           </style>
   </head>
-  <script defer src="app.js"></script>
 <body Style="background-image:url(https://64.media.tumblr.com/1d22ee6034b5fbb0aa8c886649620b5f/49ece6d4ba4b2e16-34/s500x750/2eae17f74d0e3b73651561e679679d7b5e10a939.gifv);" >
   
   <header>
     <nav>
       <a href="index.html"><p>Home</p></a>
       <a href="login.html"><p>Login</p></a>
-      <a href="register.html"><p>register</p></a>
+      <a href="register.html"><p>Registration</p></a>
     </nav>
   </header>
   <div class="loginForm">
@@ -71,20 +70,24 @@
     <label for="fName">Email : </label>
     <input type="text" id="email" name="email" placeholder="Enter email " />
     <br />
-    <label for="password">Password : </label>
+    <label for="pass1">Password : </label>
     <input
-      type="password"
-      id="password"
-      name="password"
+      type="text"
+      id="pass1"
+      name="pass1"
       placeholder="Enter Password "
+      onkeyup="return validate()"
+        onkeyup="return confirmPassword()"
     />
     <br />
-    <label for="cPassword">Confirm Password : </label>
+    <label for="pass2">Confirm Password : </label>
+    <span id = "message2" style="color:red"> </span>
     <input
-      type="password"
-      id="cPassword"
-      name="cPassword"
+      type="text"
+      id="pass2"
+      name="pass2"
       placeholder="Confirm Password "
+      onkeyup="return confirmPassword()"
     />
     <br />
     <form>
@@ -100,7 +103,16 @@
       <input type = "text" id = "favourite" size = "20"/> </p>
       </form>
     <button type="button">Submit</button>
+    
   </form>
+  <ul>
+    <li id="upper">One uppercase</li>
+    <li id="lower">One lowercase</li>
+    <li id="symbol">One symbol</li>
+    <li id="number">One number</li>
+    <li id="length">At least 6 characters</li>
+  </ul>
 </div>
+<script src="app.js"></script>
 </body>
 </html>
