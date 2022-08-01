@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <script defer src="app.js"></script>
     <style>
         .loginForm{
             position: sticky;
@@ -24,7 +25,7 @@
         div {
           width: 100px;
           height: 100px;
-          background: red;
+
           transition: width 2s, height 4s;
         }
         
@@ -32,22 +33,28 @@
           width: 300px;
           height: 300px;
         }
-        
+        body {background-image:url("../images/starry-dusk.gif"); 
+          background-repeat:repeat; 
+        }
         
         
         
             </style>
         </head>
-        <body Style="background-color:#827055"; >
+        <body>
             <header>
                 <nav>
-                  <a href="animal.html"><p>Bat</p></a>
-                  <a href="city.html"><p>Gotham</p></a>
-                  <a href="famous-person.html"><p>Batman</p></a>
+                  <a href="index.html"><p>Index</p></a>
+                  <a href="login.html"><p>Login</p></a>
+                  <a href="register.html"><p>Register</p></a>
+                  <div class='logo'><img src="../images/selzter.png"
+                    width="200"
+             height="241"/></div>
                 </nav>
               </header>
+
             <div class="loginForm">
-                <form action="">
+                <form action="/" method="GET">
                   <h1 style="text-align: center">User Login</h1>
                   <br />
         

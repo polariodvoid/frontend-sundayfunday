@@ -23,9 +23,8 @@ h1
 
   
   .menu-container {
-	color: #fff;
+	color: black;
 	background-color: #ede7cf;  /* Blue */
-	padding: 20px 0;
 	display: flex;
 	justify-content: center;
   }
@@ -46,8 +45,8 @@ h1
 	margin-left: 20px;
   }
   .header-container {
-	color: #5995DA;
-	background-color: #D6E9FE;
+	color: #827055;
+	background-color: #d4ceb0;
 	display: flex;
 	justify-content: center;
   }
@@ -61,17 +60,28 @@ h1
   }
   .photo-grid-container {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: flex-end;
   }
   
   .photo-grid {
 	width: 900px;
 	display: flex;
-	justify-content: flex-start;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: flex-end;
   }
   
   .photo-grid-item {
-	border: 1px solid #fff;
-	width: 300px;
-	height: 300px;
+	border: 1px solid #d4ceb0;
+	width: auto;
+	height: 408px;
+	white-space: wrap;
+	
+	
+  }
+  .photo-grid-item > img {
+	height: 100%;
+	width: auto;
   }

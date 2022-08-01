@@ -3,6 +3,21 @@
 <html lang="en">
 
 <head>
+  <style>
+  .crop{
+    width: 400px;
+    height: 280px;
+    overflow: hidden;
+  }
+  .crop img{
+    width: 400px;
+    height: 300px;
+    margin: 0 0 -300px 0px;
+  }
+  body { background-image:url('images/starry-dusk.gif'); background-repeat:repeat; }
+
+</style>
+
 
   <link rel="stylesheet" href="../css/index.css" />
 
@@ -14,37 +29,54 @@
 
     <title>Index</title>
 </head>
-<body>
+<body Style="background-color:#827055"; >
     <div class="menu-container">
         <div class="menu">
           <div class="date">Aug 14, 2016</div>
           <div class="links">
-          <div class="signup">Sign Up</div>
-          <div class="login">Login</div>
+            <nav>
+              <a href="index.html"><p>Home</p></a>
+              <a href="login.html"><p>Login</p></a>
+              <a href="register.html"><p>Registeration</p></a>
+            </nav>
         </div>
       </div>
     </div>
       <div class='header-container'>
         <div class='header'>
           <div class='subscribe'>Subscribe &#9662;</div>
-          <div class='logo'><img src="../images/selzter.png"
-            width="200"
-     height="241"/></div>
+          <div class='logo'><img src="https://www.tagsmaker.com/upload/www.tagsmaker.com_n70ku.png"
+            width="300"
+     height="300"/></div>
           <div class='social'><img src="https://www.mauihardseltzer.com/wp-content/uploads/2019/10/POG2-MHS-Mockup.png"width="200"
             height="241"/></div>
         </div>
       </div>
-      <div class='photo-grid-container'>
+      // <div class='photo-grid-container'>
         <div class='photo-grid'>
           <div class='photo-grid-item first-item'>
-            <img src='../images/one.svg'/>
+            <img src='https://media.istockphoto.com/photos/smiling-young-woman-at-the-downtown-district-picture-id1183749585?k=20&m=1183749585&s=612x612&w=0&h=MUMYoEtf0AN5_GRburnhoDz3x_sIQX7qilQ4Ypf8d3A=' width: 300px;
+            height: 300px; Style = flex:3; />
           </div>
           <div class='photo-grid-item'>
-            <img src='../images/two.svg'/>
+            <img src='https://media.istockphoto.com/photos/beauty-multi-ethnic-group-of-womans-with-diffrent-types-of-skin-and-picture-id1193184392?k=20&m=1193184392&s=612x612&w=0&h=w4LaERM10JnU7yg_R-N8oW9oDOY7OT8CqYmvkzpiEJg=' width: 300px;
+            height: 300px;/>
           </div>
           <div class='photo-grid-item'>
-            <img src='../images/three.svg'/>
+            <img src='https://images.pexels.com/photos/1635596/pexels-photo-1635596.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' width: 300px;
+            height: 300px;/>
           </div>
+          <div class='photo-grid-item'>
+            <img src='https://media.istockphoto.com/photos/summers-here-have-a-ball-picture-id1183287462?k=20&m=1183287462&s=612x612&w=0&h=Ke61kuPQ657oucD9T33Ax3BU6tScxj3qhtSYtZhmwEg=' width: 300px;
+            height: 300px;Style = flex:3/>
+          </div>
+          <div class='photo-grid-item last-item'>
+            <div class="crop">
+            <img src='https://image.shutterstock.com/image-photo/pretty-african-american-girl-reading-260nw-682208722.jpg'width: 300px;
+            height: 300px;/>
+          </div>
+          </div>
+          
         </div>
       </div>
 

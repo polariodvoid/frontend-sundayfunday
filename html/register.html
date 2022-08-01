@@ -6,8 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
-</head>
-<body>
+    <style>
+      .loginForm{
+          position: sticky;
+              top: 150px;
+              left: 250px;
+              border: 1px solid lightgrey;
+              border-radius: 10%;
+              height: 450px;
+              width: 700px;
+              background-color: grey;
+              color: #ede7cf;
+              text-align: center;
+      
+      
+      }
+      div {
+        width: 100px;
+        height: 100px;
+        background: red;
+        transition: width 2s, height 4s;
+      }
+      
+      div:hover {
+        width: 300px;
+        height: 300px;
+      }
+      
+      
+      
+      
+          </style>
+  </head>
+<body Style="background-color:#827055"; >
+  
   <header>
     <nav>
       <a href="index.html"><p>Home</p></a>
@@ -15,8 +47,10 @@
       <a href="register.html"><p>register</p></a>
     </nav>
   </header>
+  <div class="loginForm">
   <h1>Register</h1>
   <form action="">
+  
     <label for="fName">First name: </label>
     <input
       type="text"
@@ -52,7 +86,20 @@
       placeholder="Confirm Password "
     />
     <br />
+    <form>
+      <b> How did you hear about Seltzer  </b>
+      <select id = "myList" onchange = "mydropbox()" >
+        <option> ---Choose--- </option>
+        <option> Word of Mouth </option>
+        <option> Social Media </option>
+        <option> A Vendor </option>
+        <option> Other </option>
+      </select>
+      <p> If other, please fill out this box: 
+      <input type = "text" id = "favourite" size = "20"/> </p>
+      </form>
     <button type="button">Submit</button>
   </form>
+</div>
 </body>
 </html>
