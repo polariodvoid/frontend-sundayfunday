@@ -70,25 +70,32 @@
     <label for="fName">Email : </label>
     <input type="text" id="email" name="email" placeholder="Enter email " />
     <br />
-    <label for="pass1">Password : </label>
+    <label for="pass1">Password: </label>
     <input
       type="text"
       id="pass1"
       name="pass1"
-      placeholder="Enter Password "
+      placeholder="Enter your Password "
       onkeyup="return validate()"
         onkeyup="return confirmPassword()"
     />
     <br />
-    <label for="pass2">Confirm Password : </label>
+    <label for="pass2">Confirm Password: </label>
     <span id = "message2" style="color:red"> </span>
     <input
       type="text"
       id="pass2"
       name="pass2"
-      placeholder="Confirm Password "
+      placeholder="Confirm your password"
       onkeyup="return confirmPassword()"
     />
+    <ul>
+      <li id="upper">One uppercase</li>
+      <li id="lower">One lowercase</li>
+      <li id="symbol">One symbol</li>
+      <li id="number">One number</li>
+      <li id="length">At least 6 characters</li>
+    </ul>
     <br />
     <form>
       <b> How did you hear about Seltzer  </b>
@@ -105,13 +112,7 @@
     <button type="button">Submit</button>
     
   </form>
-  <ul>
-    <li id="upper">One uppercase</li>
-    <li id="lower">One lowercase</li>
-    <li id="symbol">One symbol</li>
-    <li id="number">One number</li>
-    <li id="length">At least 6 characters</li>
-  </ul>
+  
 </div>
 <script src="app.js"></script>
 </body>

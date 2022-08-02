@@ -30,3 +30,23 @@
 	border: 1px solid #a79e8b;  /* For debugging */
 	width: 900px;
   }
+
+  .menu-container {
+	color: black;
+	background-color: #ede7cf;  /* Blue */
+	display: flex;
+	justify-content: center;
+  }
+  
+  .menu {
+	border: 1px solid #a79e8b;  /* For debugging */
+	width: 400px;
+	display: flex;
+  	justify-content: space-around;
+  }
+  .links {
+	border: 1px solid #fff;  /* For debugging */
+	display: flex;
+	justify-content: flex-end;
+  }
+  

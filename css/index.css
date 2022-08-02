@@ -31,7 +31,7 @@ h1
   
   .menu {
 	border: 1px solid #a79e8b;  /* For debugging */
-	width: 900px;
+	width: 400px;
 	display: flex;
   	justify-content: space-around;
   }
@@ -52,8 +52,8 @@ h1
   }
   
   .header {
-	width: 900px;
-	height: 300px;
+	width: 400px;
+	height: 200px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;  /* Add this */
@@ -77,7 +77,7 @@ h1
 	border: 1px solid #d4ceb0;
 	width: auto;
 	height: 408px;
-	white-space: wrap;
+	white-space: normal;
 	
 	
   }
@@ -87,24 +87,24 @@ h1
   }
   .body-grid-container {
 	display: flex;
-	justify-content: right;
-	flex-wrap: nowrap;
-	align-items: flex-start;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	align-items: baseline;
   }
   
   .body-grid {
 	width: 900px;
 	display: flex;
-	justify-content: right ;
+	justify-content: space-evenly ;
 	flex-wrap: wrap;
-	align-items: flex-start;
+	align-items: baseline;
   }
   
   .body-grid-item {
 	border: 1px solid #d4ceb0;
 	width: auto;
 	height: 408px;
-	white-space: wrap;
+	white-space: normal;
 	
 	
   }
